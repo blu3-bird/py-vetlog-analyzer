@@ -77,6 +77,13 @@ uv run ruff format
 uv run ruff check --fix
 ```
 
+**Build**
+
+```sh
+# Build project as a whl package
+uv build
+```
+
 #### Contributing
 
 We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details on how to get started.

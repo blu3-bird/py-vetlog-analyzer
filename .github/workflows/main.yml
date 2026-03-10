@@ -62,9 +62,3 @@ jobs:
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602 # v6.0.0
-        with:
-          # Links Sonar project to GitHub commit hash
-          args: >
-            -Dsonar.projectKey=josdem_py-vetlog-analyzer
-            -Dsonar.organization=josdem-io
-            -Dsonar.projectVersion=${{ github.sha }}

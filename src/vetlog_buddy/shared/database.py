@@ -18,6 +18,7 @@ from sqlmodel import Session, create_engine
 
 from vetlog_buddy.shared.config import get_settings
 
+
 @lru_cache
 def get_database_url() -> str:
     settings = get_settings()
